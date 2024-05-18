@@ -6,14 +6,14 @@ Packages Included:
 
 	
 1.	**giza-cli**
-	•	Description: A command-line interface for interacting with Giza services and tools.
-	•	Usage: Facilitates various operations like project setup, deployment, and management within the Giza ecosystem.
+- **Description**: A command-line interface for interacting with Giza services and tools.
+- **Usage**: Facilitates various operations like project setup, deployment, and management within the Giza ecosystem.
 2.	**giza-agents**
-	•	Description: A software development kit for building and managing Giza actions.
-	•	Usage: Provides libraries and tools to create, test, and deploy actions in the Giza environment.
-3.	**giza-datasets**:
+- **Description**: A software development kit for building and managing Giza actions.
+- **Usage**: Provides libraries and tools to create, test, and deploy actions in the Giza environment.
+3.	**giza-datasets**
 - **Description**: A package for managing and interacting with datasets in Giza.
-	•	Usage: Offers utilities for importing, exporting, and processing datasets used in Giza projects.
+- **Usage**: Offers utilities for importing, exporting, and processing datasets used in Giza projects.
 
 ## Installation
 
