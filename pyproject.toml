@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "giza-sdk"
+version = "0.1.0"
+description = "Metapackage for installing Giza packages"
+authors = ["Tu Nombre <tuemail@example.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/gizatechxyz/giza-sdk"
+homepage = "https://github.com/gizatechxyz/giza-sdk"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+giza-cli = { git = "https://github.com/gizatechxyz/giza-cli.git", branch = "giza_namespace" }
+giza-agents = { git = "https://github.com/gizatechxyz/actions-sdk.git", branch = "giza_namespace" }
+giza-datasets = { git = "https://github.com/gizatechxyz/datasets.git", branch = "feature/giza_namespace" }
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
