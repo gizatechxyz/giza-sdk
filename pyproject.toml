@@ -10,8 +10,8 @@ homepage = "https://github.com/gizatechxyz/giza-sdk"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-giza-cli = { git = "https://github.com/gizatechxyz/giza-cli.git", branch = "giza_namespace" }
-giza-agents = { git = "https://github.com/gizatechxyz/actions-sdk.git", branch = "giza_namespace" }
+giza-cli = { git = "https://github.com/gizatechxyz/giza-cli.git", branch = "feature/giza_namespace" }
+giza-agents = { git = "https://github.com/gizatechxyz/actions-sdk.git", branch = "feature/giza_namespace" }
 giza-datasets = { git = "https://github.com/gizatechxyz/datasets.git", branch = "feature/giza_namespace" }
 
 [build-system]

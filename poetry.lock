@@ -148,13 +148,13 @@ tz = ["backports.zoneinfo"]
 
 [[package]]
 name = "annotated-types"
-version = "0.6.0"
+version = "0.7.0"
 description = "Reusable constraint types to use with typing.Annotated"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "annotated_types-0.6.0-py3-none-any.whl", hash = "sha256:0641064de18ba7a25dee8f96403ebc39113d0cb953a01429249d5c7564666a43"},
-    {file = "annotated_types-0.6.0.tar.gz", hash = "sha256:563339e807e53ffd9c267e99fc6d9ea23eb8443c08f112651963e24e22f84a5d"},
+    {file = "annotated_types-0.7.0-py3-none-any.whl", hash = "sha256:1f02e8b43a8fbbc3f3e0d4f0f4bfc8131bcb4eebe8849b8e5c773f3a1c582a53"},
+    {file = "annotated_types-0.7.0.tar.gz", hash = "sha256:aff07c09a53a08bc8cfccb9c85b05f1aa9a2a6f23728d790723543408344ce89"},
 ]
 
 [[package]]
@@ -977,6 +977,7 @@ develop = false
 [package.dependencies]
 diskcache = "^5.6.3"
 distlib = "^0.3.8"
+giza-cli = {git = "https://github.com/gizatechxyz/giza-cli.git", branch = "feature/giza_namespace"}
 giza-osiris = ">=0.2.8,<1.0.0"
 httpx = "^0.25.1"
 loguru = "^0.7.2"
@@ -994,8 +995,8 @@ agents = ["ape-etherscan (>=0.7.2,<0.8.0)", "eth-ape (>=0.7.10,<0.8.0)"]
 [package.source]
 type = "git"
 url = "https://github.com/gizatechxyz/actions-sdk.git"
-reference = "giza_namespace"
-resolved_reference = "a759c0c7837bb17f854b33c2c17f5e5ee349c1a3"
+reference = "feature/giza_namespace"
+resolved_reference = "13d719aa4c066922de4d5349cdd678a7b9155860"
 
 [[package]]
 name = "giza-cli"
@@ -1024,8 +1025,8 @@ types-requests = "^2.31.0.2"
 [package.source]
 type = "git"
 url = "https://github.com/gizatechxyz/giza-cli.git"
-reference = "giza_namespace"
-resolved_reference = "163eecf664378d23f3d8181487f6eebda91f0ded"
+reference = "feature/giza_namespace"
+resolved_reference = "50300381ed2809bfff48030462613caf5b94f667"
 
 [[package]]
 name = "giza-datasets"
@@ -1047,7 +1048,7 @@ rich = "^13"
 type = "git"
 url = "https://github.com/gizatechxyz/datasets.git"
 reference = "feature/giza_namespace"
-resolved_reference = "e359f6e5e889f5eafedd31a150b2ed6f6fa36360"
+resolved_reference = "96e1da14ac4ffae172579b7f4a25b765462f169b"
 
 [[package]]
 name = "giza-osiris"
@@ -1407,13 +1408,13 @@ test = ["objgraph", "psutil"]
 
 [[package]]
 name = "griffe"
-version = "0.45.0"
+version = "0.45.1"
 description = "Signatures for entire Python programs. Extract the structure, the frame, the skeleton of your project, to generate API documentation or find breaking changes in your API."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "griffe-0.45.0-py3-none-any.whl", hash = "sha256:90fe5c90e1b0ca7dd6fee78f9009f4e01b37dbc9ab484a9b2c1578915db1e571"},
-    {file = "griffe-0.45.0.tar.gz", hash = "sha256:85cb2868d026ea51c89bdd589ad3ccc94abc5bd8d5d948e3d4450778a2a05b4a"},
+    {file = "griffe-0.45.1-py3-none-any.whl", hash = "sha256:12194c10ae07a7f46708741ad78419362cf8e5c883f449c7c48de1686611b853"},
+    {file = "griffe-0.45.1.tar.gz", hash = "sha256:84ce9243a9e63c07d55563a735a0d07ef70b46c455616c174010e7fc816f4648"},
 ]
 
 [package.dependencies]
@@ -2947,13 +2948,13 @@ files = [
 
 [[package]]
 name = "requests"
-version = "2.31.0"
+version = "2.32.1"
 description = "Python HTTP for Humans."
 optional = false
-python-versions = ">=3.7"
+python-versions = ">=3.8"
 files = [
-    {file = "requests-2.31.0-py3-none-any.whl", hash = "sha256:58cd2187c01e70e6e26505bca751777aa9f2ee0b7f4300988b709f44e013003f"},
-    {file = "requests-2.31.0.tar.gz", hash = "sha256:942c5a758f98d790eaed1a29cb6eefc7ffb0d1cf7af05c3d2791656dbd6ad1e1"},
+    {file = "requests-2.32.1-py3-none-any.whl", hash = "sha256:21ac9465cdf8c1650fe1ecde8a71669a93d4e6f147550483a2967d08396a56a5"},
+    {file = "requests-2.32.1.tar.gz", hash = "sha256:eb97e87e64c79e64e5b8ac75cee9dd1f97f49e289b083ee6be96268930725685"},
 ]
 
 [package.dependencies]
@@ -3455,13 +3456,13 @@ types-pyasn1 = "*"
 
 [[package]]
 name = "types-requests"
-version = "2.31.0.20240406"
+version = "2.32.0.20240521"
 description = "Typing stubs for requests"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "types-requests-2.31.0.20240406.tar.gz", hash = "sha256:4428df33c5503945c74b3f42e82b181e86ec7b724620419a2966e2de604ce1a1"},
-    {file = "types_requests-2.31.0.20240406-py3-none-any.whl", hash = "sha256:6216cdac377c6b9a040ac1c0404f7284bd13199c0e1bb235f4324627e8898cf5"},
+    {file = "types-requests-2.32.0.20240521.tar.gz", hash = "sha256:c5c4a0ae95aad51f1bf6dae9eed04a78f7f2575d4b171da37b622e08b93eb5d3"},
+    {file = "types_requests-2.32.0.20240521-py3-none-any.whl", hash = "sha256:ab728ba43ffb073db31f21202ecb97db8753ded4a9dc49cb480d8a5350c5c421"},
 ]
 
 [package.dependencies]
@@ -3856,4 +3857,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "789ad33bb7ae3a77ae1bbf6ddf2992d64e12197c40d6fbb83d155cb4fbb0de22"
+content-hash = "55f86e1196b7989e757453cb0f908015abec541a30d238ac458609ff1e0d4a36"
