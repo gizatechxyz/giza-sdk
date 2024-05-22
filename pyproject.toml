@@ -10,9 +10,15 @@ homepage = "https://github.com/gizatechxyz/giza-sdk"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-giza-cli = { git = "https://github.com/gizatechxyz/giza-cli.git", branch = "feature/giza_namespace" }
-giza-agents = { git = "https://github.com/gizatechxyz/actions-sdk.git", branch = "feature/giza_namespace" }
-giza-datasets = { git = "https://github.com/gizatechxyz/datasets.git", branch = "feature/giza_namespace" }
+giza-cli = ">=0.17.0"
+giza-datasets = ">=0.3.0"
+giza-agents = ">=0.4.0"
+
+[tool.poetry.extras]
+[giza-zkcook]
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
