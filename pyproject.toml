@@ -14,9 +14,6 @@ giza-cli = ">=0.17.0"
 giza-datasets = ">=0.3.0"
 giza-agents = ">=0.4.0"
 
-[tool.poetry.extras]
-[giza-zkcook]
-
 [tool.poetry.dev-dependencies]
 pytest = "^6.2"
 
