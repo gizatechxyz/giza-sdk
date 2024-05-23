@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "giza-sdk"
-version = "0.1.0"
+version = "0.1.1"
 description = "Metapackage for installing Giza packages"
 authors = ["Tu Nombre <tuemail@example.com>"]
 license = "MIT"
@@ -13,6 +13,7 @@ python = "^3.11"
 giza-cli = ">=0.17.0"
 giza-datasets = ">=0.3.0"
 giza-agents = ">=0.4.0"
+giza-zkcook = "^0.2.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2"
