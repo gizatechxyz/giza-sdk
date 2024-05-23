@@ -15,7 +15,7 @@ Packages Included:
 To install the giza-sdk and all included packages, run:
 
 ```bash
-pipx install giza-sdk
+pip install giza-sdk
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ Now everything is available under the name giza! Here are some examples:
 
 ```python
 from giza.datasets import DatasetsLoader
-from giza import cli
+from giza.cli import cli
 from giza.agents import GizaAgent
 ```
 
